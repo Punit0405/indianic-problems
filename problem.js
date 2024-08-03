@@ -29,9 +29,10 @@ const secondLargestElement2 = (arr) => {
 
     }
     if (secondMax === Number.MIN_SAFE_INTEGER) {
-        return "no second max";
+        return "no second max element founded";
     }
     return secondMax;
 }
 
+console.log(secondLargestElement1(arr));
 console.log(secondLargestElement2(arr));
