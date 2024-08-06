@@ -1,0 +1,25 @@
+{
+  "name": "indianic-practical",
+  "version": "1.0.0",
+  "description": "",
+  "main": "problem.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/problem.js",
+    "test": "mocha --timeout 30000 --require ts-node/register test/**.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/sinon": "^10.0.18",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^16.0.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
